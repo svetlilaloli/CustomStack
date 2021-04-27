@@ -20,6 +20,7 @@ namespace CustomStack
         public SinglyLinkedStack()
         {
             last = null;
+            Count = 0;
         }
         
         public void Push(T value)
